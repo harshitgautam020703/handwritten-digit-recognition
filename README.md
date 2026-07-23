@@ -2,7 +2,6 @@
 
 [![Python](https://img.shields.io/badge/Python-3.8+-blue.svg)](https://www.python.org/)
 [![TensorFlow](https://img.shields.io/badge/TensorFlow-2.10+-orange.svg)](https://www.tensorflow.org/)
-[![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 [![Accuracy](https://img.shields.io/badge/Accuracy-97.13%25-brightgreen.svg)]()
 
 > A production-ready deep learning pipeline for handwritten digit recognition achieving 97.13% validation accuracy on the MNIST dataset.
