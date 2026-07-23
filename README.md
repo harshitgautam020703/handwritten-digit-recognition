@@ -40,3 +40,33 @@ This project implements a Convolutional Neural Network (CNN) for recognizing han
 - ✅ **Reproducibility**: Fixed random seeds for consistent results
 
 ## 📁 Project Structure
+
+handwritten-digit-recognition/
+├── src/ # Source code
+│ ├── init.py # Package initialization
+│ ├── data_loader.py # Data loading and preprocessing
+│ ├── model.py # Model architecture
+│ ├── train.py # Training pipeline
+│ ├── predict.py # Prediction module
+│ └── utils.py # Utility functions
+├── tests/ # Unit tests
+│ ├── test_model.py # Model tests
+│ └── test_predict.py # Prediction tests
+├── deployment/ # Deployment options
+│ ├── app.py # Flask web app
+│ └── api.py # FastAPI implementation
+├── config/ # Configuration files
+│ └── config.yaml # Model configuration
+├── models/ # Saved models
+│ └── mnist_model.h5 # Trained model
+├── outputs/ # Generated outputs
+│ ├── training_history.png # Training plots
+│ ├── confusion_matrix.png # Confusion matrix
+│ └── sample_digits.png # Sample visualizations
+├── notebooks/ # Jupyter notebooks (optional)
+│ └── 01_data_exploration.ipynb
+├── main.py # Main execution script
+├── requirements.txt # Python dependencies
+├── setup.py # Package setup
+├── .gitignore # Git ignore file
+└── README.md # This file
